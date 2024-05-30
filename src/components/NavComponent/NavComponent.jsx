@@ -1,15 +1,11 @@
-import React, { useState } from 'react'
-import { AsideComponent } from '../AsideComponent/AsideComponent';
-
-
 
 export const NavComponent = () => {
     
   return (
     <>
-    <nav className='bg-red-800 sm:hidden'>
+    <nav className='bg-red-800'>
                
-        <ul className='flex p-4 gap-12 lx:w-[1000px] items-center'>
+        <ul className='max-[499px]:hidden  flex p-4 gap-12 lx:w-[1000px] items-center'>
             <li>
                 <img className='w-[90px]' src="./src/assets/ISO-INGENIEROS-LOGO.svg" alt="" />
             </li>
