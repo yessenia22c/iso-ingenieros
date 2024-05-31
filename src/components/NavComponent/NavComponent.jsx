@@ -5,7 +5,7 @@ export const NavComponent = () => {
     <>
     <nav className='bg-red-800'>
                
-        <ul className='max-[499px]:hidden  flex p-4 gap-12 lx:w-[1000px] items-center'>
+        <ul className='max-[499px]:hidden  flex p-2 gap-12 lx:w-[1000px] items-center max-[620px]:text-[14px] max-[620px]:gap-10'>
             <li>
                 <img className='w-[90px]' src="./src/assets/ISO-INGENIEROS-LOGO.svg" alt="" />
             </li>
